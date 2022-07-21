@@ -3,7 +3,8 @@
 [![TPM](https://img.shields.io/badge/tpm--support-true-blue)](https://github.com/tmux-plugins/tpm)
 ![GitHub all releases](https://img.shields.io/github/downloads/shreewatsa/nepmux/total?logo=Github&logoColor=%23ff0000)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/shreewatsa/nepmux/blob/master/LICENSE)
-[![Generic badge](https://img.shields.io/badge/Made_with_-love-red.svg)](https://shields.io/)
+
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/shreewatsa/)
 
 ### :fire: Features 
 
