@@ -28,13 +28,14 @@ user_icon=''
 time_icon=''
 date_icon=''
 # Options
-time_format=$(tmux_get @tmux_power_time_format '%I:%M')
-date_format=$(tmux_get @tmux_power_date_format '%d %b %Y')
+time_format=$(tmux_get @nepmux_time_format '%I:%M')
+date_format=$(tmux_get @nepmux_date_format '%d %b %Y')
+city=$(tmux_get @nepmux_city '')
 
 # short for Theme-Colour
-TC=$(tmux_get '@tmux_power_theme' 'gold')
+TC=$(tmux_get '@nepmux_theme' 'sun')
 case $TC in
-    'gold' )
+    'sun' )
         TC='#ffb86c'
         ;;
     'moon' )
@@ -125,7 +126,7 @@ RS=""
 
 #Nepse and weather data formatting.
 nepse_nocolor=$($CURRENT_DIR/scripts/nepse.sh)
-weather_nocolor=$($CURRENT_DIR/scripts/weather.sh)
+weather_nocolor=$($CURRENT_DIR/scripts/weather.sh $city)
 
 if [ ! -z "$nepse_nocolor" ]; then
   nepse_color=$(echo $nepse_nocolor | \
