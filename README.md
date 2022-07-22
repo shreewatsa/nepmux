@@ -77,7 +77,7 @@ set -g @nepmux_time_format '%I:%M'
 set -g status-interval 60
 ```
 
-### :bookmark_tabs: Information on data sources is available in the [Wiki](https://github.com/shreewatsa/nepmux/wiki)
+### :bookmark_tabs: Information on data sources is available in the [Wiki](https://github.com/shreewatsa/nepmux/wiki/Nepmux-Wiki)
 
 ### PRs and Issues are appreciated :v:
 
